@@ -29,11 +29,11 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     'subclimatic-sherri-nonprovocatively.ngrok-free.dev',
-    '.ngrok-free.dev',  # Allow all ngrok-free.dev subdomains
-    '.ngrok.io',  # Allow all ngrok.io subdomains (for paid ngrok)
-    'testtttttt-kf9v.onrender.com'
+    '.ngrok-free.dev',
+    '.ngrok.io',
+    'testtttttt-kf9v.onrender.com',
+    'ostad-batch-09-nntq.onrender.com',
 ]
-
 # CSRF trusted origins for ngrok
 # Note: Django doesn't support wildcards in CSRF_TRUSTED_ORIGINS
 # If you get a new ngrok domain, add it here
